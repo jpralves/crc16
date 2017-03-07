@@ -8,7 +8,7 @@
 class CRC16 {
 	public:
 	   CRC16();
-     uint16_t processByte(uint8_t data);
+	   uint16_t processByte(uint8_t data);
 	   uint16_t processBuffer(const char *data_p, uint16_t length);
 	   uint16_t getCrc() { return crc; };
 	private:
